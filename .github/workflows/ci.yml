@@ -3,11 +3,11 @@ name: build-and-lint
 # triggers: define when this workflow should run
 # trigger on push to these branches
 on:
-  workflow_dispatch:
-  # push:
-  #   branches: [main, dev, amit-shet]
-  # pull_request:
-  #   branches: [main, dev, amit-shet]
+  # workflow_dispatch:
+  push:
+    branches: [main, dev, amit-shet]
+  pull_request:
+    branches: [main, dev, amit-shet]
 
 jobs:
   build-and-lint:
