@@ -17,7 +17,7 @@
     "mongodb",
     "devops"
   ],
-  "author": "Amit Shet",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
